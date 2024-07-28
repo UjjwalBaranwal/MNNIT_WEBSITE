@@ -1,5 +1,7 @@
+import Slides from "./component/Slides";
+
 function App() {
-  return <div></div>;
+  return <Slides />;
 }
 
 export default App;

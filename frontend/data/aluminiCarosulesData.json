@@ -1,0 +1,64 @@
+{
+  "slides": [
+    {
+      "image": "https://picsum.photos/seed/img1/600/400",
+      "name": "John Doe",
+      "education": "Bachelor's in Computer Science",
+      "current_post": "Software Engineer"
+    },
+    {
+      "image": "https://picsum.photos/seed/img2/600/400",
+      "name": "Jane Smith",
+      "education": "Master's in Business Administration",
+      "current_post": "Project Manager"
+    },
+    {
+      "image": "https://picsum.photos/seed/img3/600/400",
+      "name": "Alice Johnson",
+      "education": "PhD in Physics",
+      "current_post": "Research Scientist"
+    },
+    {
+      "image": "https://picsum.photos/seed/img4/600/400",
+      "name": "Robert Brown",
+      "education": "Bachelor's in Mechanical Engineering",
+      "current_post": "Mechanical Engineer"
+    },
+    {
+      "image": "https://picsum.photos/seed/img5/600/400",
+      "name": "Emily Davis",
+      "education": "Master's in Fine Arts",
+      "current_post": "Graphic Designer"
+    },
+    {
+      "image": "https://picsum.photos/seed/img6/600/400",
+      "name": "Michael Wilson",
+      "education": "Bachelor's in Economics",
+      "current_post": "Financial Analyst"
+    },
+    {
+      "image": "https://picsum.photos/seed/img7/600/400",
+      "name": "Jessica Garcia",
+      "education": "Master's in Environmental Science",
+      "current_post": "Environmental Consultant"
+    },
+    {
+      "image": "https://picsum.photos/seed/img8/600/400",
+      "name": "Daniel Martinez",
+      "education": "Bachelor's in Information Technology",
+      "current_post": "IT Specialist"
+    },
+    {
+      "image": "https://picsum.photos/seed/img9/600/400",
+      "name": "Sarah Lee",
+      "education": "PhD in Chemistry",
+      "current_post": "Chemical Engineer"
+    },
+    {
+      "image": "https://picsum.photos/seed/img10/600/400",
+      "name": "William Anderson",
+      "education": "Bachelor's in Civil Engineering",
+      "current_post": "Civil Engineer"
+    }
+  ]
+}
