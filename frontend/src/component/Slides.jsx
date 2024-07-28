@@ -41,7 +41,7 @@ function Slides() {
   if (error) return <p>Error: {error.message}</p>;
 
   return (
-    <section className="p-10 flex justify-center items-center">
+    <section className="p-10 flex justify-center items-center ">
       <div className="carousel">
         <BsArrowLeftCircleFill
           onClick={prevSlide}
@@ -55,10 +55,18 @@ function Slides() {
             >
               <div className="grid grid-cols-2 p-10">
                 <img src={item.image} alt={item.name} />
-                <div className="p-2">
-                  <h3>{item.name}</h3>
-                  <p>{item.education}</p>
-                  <p>{item.current_post}</p>
+                <div className="p-4 flex items-center justify-center ">
+                  <div className="leading-8 flex flex-col gap-3">
+                    <h3 className="font-bold text-3xl text-center">
+                      {item.name}
+                    </h3>
+                    <p className="font-semibold text-2xl text-center">
+                      {item.education}
+                    </p>
+                    <p className="font-semibold text-2xl text-center">
+                      {item.current_post}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

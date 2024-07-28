@@ -1,7 +1,7 @@
-import Slides from "./component/Slides";
+import AppLayout from "./component/AppLayout";
 
 function App() {
-  return <Slides />;
+  return <AppLayout />;
 }
 
 export default App;
