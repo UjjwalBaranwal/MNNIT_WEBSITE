@@ -1,7 +1,7 @@
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { IconContext } from "react-icons";
 
-import Button from "./Button";
+import Button from "../../component/Button";
 import { BsGift } from "react-icons/bs";
 import { IoCalendarOutline } from "react-icons/io5";
 
@@ -19,7 +19,6 @@ function Box({ title, description, index, buttondes }) {
         <div className="mb-2 text-cyan-800">
           {index == 0 ? (
             <IoCalendarOutline />
-            
           ) : index == 1 ? (
             <BsGift />
           ) : (
@@ -29,7 +28,9 @@ function Box({ title, description, index, buttondes }) {
       </IconContext.Provider>
       <div className="text-base font-semibold text-cyan-800 ">{title}</div>
       <div className="text-wrap text-[0.85rem]">{description}</div>
-      <Button primary outline className="uppercase text-xs font-semibold">{buttondes} </Button>
+      <Button primary outline className="uppercase text-xs font-semibold">
+        {buttondes}{" "}
+      </Button>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import Card from "../component/Card";
+import Card from "./Card";
 
 function CareerPage() {
   const posts = [
