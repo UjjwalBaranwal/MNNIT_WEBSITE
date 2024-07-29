@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import logo from "../assets/mnnit_.png";
 function Navbar() {
   const style =
@@ -10,13 +11,27 @@ function Navbar() {
 
       <div className="flex justify-center items-center">
         <ul className="flex justify-evenly">
-          <li className={style}>Home</li>
-          <li className={style}>Community & Interest</li>
-          <li className={style}>Volunteer</li>
-          <li className={style}>Event</li>
-          <li className={style}>Benefit</li>
-          <li className={style}>Giving</li>
-          <li className={style}>Stories</li>
+          <li className={style}>
+            <NavLink to={""}> Home</NavLink>
+          </li>
+          <li className={style}>
+            <NavLink to="community">Community & Interest</NavLink>
+          </li>
+          <li className={style}>
+            <NavLink to="volunteer">Volunteer</NavLink>
+          </li>
+          <li className={style}>
+            <NavLink to="event">Event</NavLink>
+          </li>
+          <li className={style}>
+            <NavLink to="benefit">Benefit</NavLink>
+          </li>
+          <li className={style}>
+            <NavLink to="giving">Giving</NavLink>
+          </li>
+          <li className={style}>
+            <NavLink to="stories">Stories</NavLink>
+          </li>
         </ul>
       </div>
     </>
