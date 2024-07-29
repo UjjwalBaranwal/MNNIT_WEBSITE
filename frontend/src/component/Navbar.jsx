@@ -1,7 +1,8 @@
 import logo from "../assets/mnnit_.png";
+import Button from "./Button";
 function Navbar() {
-  const style =
-    "p-2 text-sm cursor-pointer  hover:bg-cyan-400 rounded-md uppercase hover:text-white font-semibold";
+  const style='p-2 text-sm cursor-pointer  rounded-md uppercase font-semibold grid-item hover:border-b-3 hover:border-b-cyan-700'
+
   return (
     <>
       <div className="flex">
@@ -17,7 +18,9 @@ function Navbar() {
           <li className={style}>Benefit</li>
           <li className={style}>Giving</li>
           <li className={style}>Stories</li>
+          <li className={style}>Career</li>
         </ul>
+        <Button secondary outline rounded>Log In</Button>
       </div>
     </>
   );
