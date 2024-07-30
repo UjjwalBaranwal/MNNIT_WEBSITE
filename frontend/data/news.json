@@ -1,0 +1,49 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "MNNIT Allahabad Celebrates Alumni Meet",
+      "date": "2024-07-28",
+      "content": "The CSE department at MNNIT Allahabad recently hosted an alumni meet. Alumni from various batches attended the event, sharing their experiences and discussing future collaborations.",
+      "author": "Admin",
+      "category": "Event",
+      "tags": ["Alumni", "Event", "MNNIT"]
+    },
+    {
+      "id": 2,
+      "title": "New Research Lab Inaugurated at MNNIT",
+      "date": "2024-07-25",
+      "content": "A new research lab focusing on artificial intelligence and machine learning was inaugurated at MNNIT Allahabad. The lab is equipped with state-of-the-art facilities to support cutting-edge research.",
+      "author": "Dr. A. Kumar",
+      "category": "Research",
+      "tags": ["Research", "AI", "Lab"]
+    },
+    {
+      "id": 3,
+      "title": "MNNIT Hosts International Tech Conference",
+      "date": "2024-07-20",
+      "content": "MNNIT Allahabad hosted an international tech conference, bringing together experts from around the world to discuss the latest trends and innovations in technology.",
+      "author": "Tech Desk",
+      "category": "Conference",
+      "tags": ["Conference", "Tech", "Innovation"]
+    },
+    {
+      "id": 4,
+      "title": "Alumni Start-up Success Stories",
+      "date": "2024-07-15",
+      "content": "Several MNNIT alumni have successfully launched their own start-ups. This article highlights their journeys, challenges, and achievements.",
+      "author": "Startup Desk",
+      "category": "Alumni",
+      "tags": ["Start-up", "Alumni", "Success"]
+    },
+    {
+      "id": 5,
+      "title": "CSE Department Ranked Top in India",
+      "date": "2024-07-10",
+      "content": "The Computer Science and Engineering department at MNNIT Allahabad has been ranked as the top department in India according to a recent survey.",
+      "author": "Education Board",
+      "category": "Ranking",
+      "tags": ["Ranking", "CSE", "Achievement"]
+    }
+  ]
+}

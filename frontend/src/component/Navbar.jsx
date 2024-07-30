@@ -2,7 +2,8 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/mnnit_.png";
 import Button from "./Button";
 function Navbar() {
-  const style='p-2 text-sm cursor-pointer  rounded-md uppercase font-semibold grid-item hover:border-b-3 hover:border-b-cyan-700'
+  const style =
+    "p-2 text-sm cursor-pointer  rounded-md uppercase font-semibold grid-item hover:border-b-3 hover:border-b-cyan-700";
 
   return (
     <>
@@ -16,7 +17,7 @@ function Navbar() {
             <NavLink to={""}> Home</NavLink>
           </li>
           <li className={style}>
-            <NavLink to='career'> Career</NavLink>
+            <NavLink to="career"> Career</NavLink>
           </li>
           <li className={style}>
             <NavLink to="community">Community & Interest</NavLink>
@@ -37,7 +38,9 @@ function Navbar() {
             <NavLink to="stories">Stories</NavLink>
           </li>
         </ul>
-        <Button secondary outline rounded>Log In</Button>
+        <Button secondary outline rounded>
+          Log In
+        </Button>
       </div>
     </>
   );
