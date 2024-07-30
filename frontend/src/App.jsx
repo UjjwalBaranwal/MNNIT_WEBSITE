@@ -8,7 +8,7 @@ import Benefit from "./features/Benefit/Benefit";
 import Giving from "./features/Giving/Giving";
 import Stories from "./features/Stories/Stories";
 import CareerPage from "./features/Career/CareerPage";
-
+import ErrorPage from "./features/ErrorPage/ErrorPage";
 // function App() {
 //   return <AppLayout />;
 // }
@@ -26,6 +26,7 @@ function App() {
           <Route path="stories" element={<Stories />} />
           <Route path="career" element={<CareerPage />} />
         </Route>
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );
