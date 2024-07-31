@@ -8,7 +8,7 @@ import { IoCalendarOutline } from "react-icons/io5";
 function Box({ title, description, index, buttondes }) {
   console.log(index);
   return (
-    <div className="flex flex-col justify-between items-center text-center space-y-2 p-6 h-[250px] w-full border-b-2 border-b-black shadow-md shadow-cyan-800 hover:shadow-md hover:shadow-cyan-950 hover:-translate-y-2 transition-all">
+    <div className="flex flex-col justify-between items-center text-center space-y-2 b p-6 h-[300px] w-full border-b-2 border-b-black shadow-md shadow-cyan-800 hover:shadow-md hover:shadow-cyan-950 hover:-translate-y-2 transition-all">
       <IconContext.Provider
         value={{
           size: "40px",
@@ -26,9 +26,9 @@ function Box({ title, description, index, buttondes }) {
           )}
         </div>
       </IconContext.Provider>
-      <div className="text-base font-semibold text-cyan-800 ">{title}</div>
-      <div className="text-wrap text-[0.85rem]">{description}</div>
-      <Button primary outline className="uppercase text-xs font-semibold">
+      <div className="text-lg font-semibold text-cyan-800 ">{title}</div>
+      <div className="text-wrap text-base">{description}</div>
+      <Button primary outline className="uppercase text-sm  font-semibold text-black">
         {buttondes}{" "}
       </Button>
     </div>

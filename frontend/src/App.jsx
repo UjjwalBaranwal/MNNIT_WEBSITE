@@ -9,6 +9,7 @@ import Giving from "./features/Giving/Giving";
 import Stories from "./features/Stories/Stories";
 import CareerPage from "./features/Career/CareerPage";
 import ErrorPage from "./features/ErrorPage/ErrorPage";
+import LoginPage from "./features/Authentication/LoginPage";
 // function App() {
 //   return <AppLayout />;
 // }
@@ -25,6 +26,7 @@ function App() {
           <Route path="giving" element={<Giving />} />
           <Route path="stories" element={<Stories />} />
           <Route path="career" element={<CareerPage />} />
+          <Route path="login" element={<LoginPage />} />
         </Route>
         <Route path="*" element={<ErrorPage />} />
       </Routes>

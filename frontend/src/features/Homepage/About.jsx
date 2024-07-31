@@ -1,9 +1,9 @@
 function About() {
-  const paraStyling = "p-4 my-2 text-lg";
+  const paraStyling = "p-4 my-2 text-xl";
   return (
-    <div className="border border-red-500">
-      <h1 className="font-extrabold text-xl my-2 mx-3 border-b border-b-cyan-300">
-        About Us
+    <div className="border col-span-3 text-wrap h-[100%] ">
+      <h1 className="font-extrabold text-5xl my-2 mx-3 ">
+        <span className="border-b-4 border-b-cyan-700">Ab</span>out Us
       </h1>
       <p className={paraStyling}>
         Welcome to the alumni page of the Department of Computer Science and
@@ -20,22 +20,24 @@ function About() {
         environment conducive to learning and growth. The knowledge and skills
         imparted at MNNIT Allahabad have equipped our alumni to excel in diverse
         fields, ranging from software development and data science to artificial
-        intelligence and cybersecurity.
-      </p>
-      <p className={paraStyling}>
+        intelligence and cybersecurity. <br className="p-1" />
         The alumni network of CSE at MNNIT is not just a group of former
         students; its a thriving community that continues to inspire and support
         each other. Whether its through mentorship, collaboration, or simply
         sharing experiences, our alumni play a crucial role in shaping the
-        future of the next generation of engineers.
-      </p>
-      <p className={paraStyling}>
+        future of the next generation of engineers. <br className="p-1"/>
         We take pride in the achievements of our alumni, who have made
         significant contributions in various sectors, including academia,
         industry, and entrepreneurship. Their accomplishments reflect the
         quality of education and the holistic development provided by our
         institution.
       </p>
+      {/* <p className={paraStyling}>
+       
+      </p>
+      <p className={paraStyling}>
+      
+      </p> */}
       <p className={paraStyling}>
         At MNNIT Allahabad, we believe in fostering a lifelong connection with
         our alumni. This platform serves as a space for our alumni to reconnect,

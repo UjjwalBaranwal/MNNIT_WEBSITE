@@ -1,5 +1,6 @@
 import { SiYoutubemusic } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
+import Button from "./Button";
 function Footer() {
   return (
     <section className="flex items-center justify-center bg-cyan-950 text-white">
@@ -22,8 +23,15 @@ function Footer() {
         <div className="p-10   ">
           <h1 className="font-extrabold text-xl">Connect With Us</h1>
           <div className="p-4 flex text-3xl gap-4 ">
-            <SiYoutubemusic color="#FF0000" />
-            <FaLinkedin color="#0A66C2" />
+           <div className="p-2 cursor-pointer hover:-translate-y-2 transition-all delay-300">
+           <Button outline secondary rounded>
+           <SiYoutubemusic color="#FF0000 " />
+           </Button>
+           </div>
+           <div className="p-2 cursor-pointer">
+           <FaLinkedin color="#0A66C2" />
+           </div>
+            
           </div>
         </div>
       </footer>

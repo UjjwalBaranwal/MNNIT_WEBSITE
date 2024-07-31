@@ -28,17 +28,24 @@ function News() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
   return (
-    <div className="border border-red-500   ">
-      <div>
-        <h1 className="font-extrabold text-xl my-2 mx-3 border-b border-b-cyan-300">
-          News
+    <div className="border-2 h-full max-h-full col-span-2  border-gray-300">
+     
+     <div>
+        <h1 className="font-extrabold text-xl my-2 mx-3 border-b-2 border-b-cyan-700">
+         <span className=" rounded p-1 border-t-2 border-r-2 border-t-cyan-700 border-r-cyan-700  border-b-0">  News</span>
         </h1>
       </div>
       <div>
-        {data.map((item) => (
+        {data.slice(0,3).map((item) => (
           <NewsData item={item} key={item.id} />
         ))}
       </div>
+      <div className="text-sky-600 font-bold text-lg p-2 cursor-pointer my-2 mx-3 hover:text-blue-400">
+        See all 
+      </div>
+
+     
+     
     </div>
   );
 }

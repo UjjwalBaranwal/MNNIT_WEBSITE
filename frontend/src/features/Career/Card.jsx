@@ -1,5 +1,5 @@
-import { FaExternalLinkAlt } from "react-icons/fa";
-import Button from "../../component/Button";
+
+
 
 function Card({years, title, qualification, responsibilities}) {
 

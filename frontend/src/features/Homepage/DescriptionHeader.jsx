@@ -24,8 +24,8 @@ function DescriptionHeader() {
   ];
 
   return (
-    <div className="flex items-center justify-center w-full">
-      <div className="grid grid-cols-3 gap-4 justify-items-center p-2 m-20 w-9/12">
+    <div className="flex items-center justify-center w-full p-10">
+      <div className="grid grid-cols-3 gap-4 justify-items-center p-2 m-20 w-11/12">
         {array.map((item) => (
           <Box
             key={item.index}
