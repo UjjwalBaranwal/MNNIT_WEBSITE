@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import image from "./../../assets/hero.jpg";
 function HeroSection() {
   const styleLinkbtn =
-    "m-2 p-4 bg-cyan-400 rounded-md hover:bg-cyan-600 hover:text-red-700    ";
+    "m-2 p-4 bg-cyan-400 rounded-md text-xl hover:bg-cyan-600 hover:text-white ";
   return (
     <section className="hero-section my-4">
       <div className="grid grid-cols-2">

@@ -10,7 +10,7 @@ import Stories from "./features/Stories/Stories";
 import CareerPage from "./features/Career/CareerPage";
 import ErrorPage from "./features/ErrorPage/ErrorPage";
 import LoginPage from "./features/Authentication/LoginPage";
-import Login from "./features/Authentication/Login";
+import TeamPage from "./features/Team/TeamPage";
 // function App() {
 //   return <AppLayout />;
 // }
@@ -27,7 +27,7 @@ function App() {
           <Route path="career" element={<CareerPage />} />
           <Route path="stories" element={<Stories />} />
           <Route path="login" element={<LoginPage />} />
-          {/* <Route path="login" element={<Login />} /> */}
+          <Route path="teams" element={<TeamPage />} />
         </Route>
         <Route path="giving" element={<Giving />} />
         <Route path="*" element={<ErrorPage />} />

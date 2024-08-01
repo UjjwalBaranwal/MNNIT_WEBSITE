@@ -47,6 +47,9 @@ function Navbar() {
           <li className={style}>
             <NavLink to="stories">Stories</NavLink>
           </li>
+          <li className={style}>
+            <NavLink to="teams">Teams</NavLink>
+          </li>
         </ul>
         <Link to="login">
           <Button secondary outline rounded>

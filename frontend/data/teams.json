@@ -1,0 +1,104 @@
+{
+  "teams": [
+    {
+      "image": "",
+      "id": "fewlk",
+      "name": "Prof. Mayank Pandey",
+      "post": "Department head",
+      "duration": "2000-present",
+      "location": "office CSED Department MNNIT Allahabad",
+      "email": "mnnit.ac.in",
+      "phoneno": "82730883839"
+    },
+    {
+      "image": "",
+      "id": "fewlhk",
+      "name": "Dr. Rajitha B.",
+      "post": "Coordinators",
+      "duration": "2000-present",
+      "location": "office CSED Department MNNIT Allahabad",
+      "email": "mnnit.ac.in",
+      "phoneno": "82730883839"
+    },
+    {
+      "image": "",
+      "id": "fewlluk",
+      "name": "Dr. Shailendra Shukia",
+      "post": "Coordinators",
+      "duration": "2000-present",
+      "location": "office CSED Department MNNIT Allahabad",
+      "email": "mnnit.ac.in",
+      "phoneno": "82730883839"
+    },
+    {
+      "image": "",
+      "id": "feutwlk",
+      "name": "Prof. M.M. Gore",
+      "post": "Members",
+      "duration": "2000-present",
+      "location": "office CSED Department MNNIT Allahabad",
+      "email": "mnnit.ac.in",
+      "phoneno": "82730883839"
+    },
+    {
+      "image": "",
+      "id": "fewhddlk",
+      "name": "Prof. Neeraj Tyagi",
+      "post": "Members",
+      "duration": "2000-present",
+      "location": "office CSED Department MNNIT Allahabad",
+      "email": "mnnit.ac.in",
+      "phoneno": "82730883839"
+    },
+    {
+      "image": "",
+      "id": "fewlknjj",
+      "name": "Dr. Vibhav Prakash Singh",
+      "post": "Members",
+      "duration": "2000-present",
+      "location": "office CSED Department MNNIT Allahabad",
+      "email": "mnnit.ac.in",
+      "phoneno": "82730883839"
+    },
+    {
+      "image": "",
+      "id": "fewtvlk",
+      "name": "Dr. Indu Dohare",
+      "post": "Members",
+      "duration": "2000-present",
+      "location": "office CSED Department MNNIT Allahabad",
+      "email": "mnnit.ac.in",
+      "phoneno": "82730883839"
+    },
+    {
+      "image": "",
+      "id": "htfewlk",
+      "name": "Dr. Saugata Roy",
+      "post": "Members",
+      "duration": "2000-present",
+      "location": "office CSED Department MNNIT Allahabad",
+      "email": "mnnit.ac.in",
+      "phoneno": "82730883839"
+    },
+    {
+      "image": "",
+      "id": "hfffewlk",
+      "name": "Ujjwal Baranwal",
+      "post": "Web Team",
+      "duration": "2000-present",
+      "location": "office CSED Department MNNIT Allahabad",
+      "email": "ujjwal.20223190@mnnit.ac.in",
+      "phoneno": "82730883839"
+    },
+    {
+      "image": "",
+      "id": "fjybnjewlk",
+      "name": "Himanshu Tripathi",
+      "post": "Web Team",
+      "duration": "2000-present",
+      "location": "office CSED Department MNNIT Allahabad",
+      "email": "himanshu.20223109@mnnit.ac.in",
+      "phoneno": "82730883839"
+    }
+  ]
+}
