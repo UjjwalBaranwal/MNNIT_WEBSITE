@@ -6,7 +6,7 @@ import { FaGoogle } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 function LoginPage() {
   return (
-    <div className="grid grid-cols-7  h-screen w-full ">
+    <div className="grid md:grid-cols-7 grid-row-2  h-screen w-full ">
     <img src={image} className=' h-full col-span-4 rounded-tl-lg opacity-95 ' alt="" />
         
         <div className='col-span-3 h-screen shadow-lg shadow-black rounded-tr-2xl rounded-br-2xl'>

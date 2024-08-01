@@ -1,3 +1,5 @@
+import logo from '../../assets/mayank_sir.jpg'
+
 function About() {
   const paraStyling = "p-4 my-2 text-xl";
   return (
@@ -5,6 +7,7 @@ function About() {
       <h1 className="font-extrabold text-5xl my-2 mx-3 ">
         <span className="border-b-4 border-b-cyan-700">Ab</span>out Us
       </h1>
+      <img src={logo} alt="" className='float-left h-64  m-4 border-2 border-gray-400 rounded'/>
       <p className={paraStyling}>
         Welcome to the alumni page of the Department of Computer Science and
         Engineering at Motilal Nehru National Institute of Technology (MNNIT)
