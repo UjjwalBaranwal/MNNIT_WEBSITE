@@ -10,6 +10,7 @@ import Stories from "./features/Stories/Stories";
 import CareerPage from "./features/Career/CareerPage";
 import ErrorPage from "./features/ErrorPage/ErrorPage";
 import LoginPage from "./features/Authentication/LoginPage";
+import Login from "./features/Authentication/Login";
 // function App() {
 //   return <AppLayout />;
 // }
@@ -23,11 +24,12 @@ function App() {
           <Route path="volunteer" element={<Volunteer />} />
           <Route path="event" element={<Event />} />
           <Route path="benefit" element={<Benefit />} />
-          <Route path="giving" element={<Giving />} />
-          <Route path="stories" element={<Stories />} />
           <Route path="career" element={<CareerPage />} />
+          <Route path="stories" element={<Stories />} />
           <Route path="login" element={<LoginPage />} />
+          {/* <Route path="login" element={<Login />} /> */}
         </Route>
+        <Route path="giving" element={<Giving />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
