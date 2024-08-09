@@ -3,7 +3,7 @@ import InputField from "./InputField";
 
 function BasicDetail() {
   return (
-    <div className="m-4">
+    <div className="m-4 max-w-2xl">
       <h1 className="font-extrabold text-4xl">
         <span className="border-b-4 border-b-green-400">Basic</span> Detail
       </h1>
@@ -33,9 +33,11 @@ function BasicDetail() {
           placeholder={"ceo-of-xyz"}
           labelName={"Current Working Place"}
         />
-        <Button rounded secondary_mid outline className="text-black">
-          Update
-        </Button>
+        <div className="flex justify-end">
+          <Button rounded outline className="text-black bg-emerald-400">
+            Update
+          </Button>
+        </div>
       </form>
     </div>
   );

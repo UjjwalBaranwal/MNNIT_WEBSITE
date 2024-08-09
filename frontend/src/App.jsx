@@ -22,6 +22,7 @@ import Dashboard from "./features/UserLogin/Dashboard";
 import EventLogin from "./features/UserLogin/Event";
 import JobPost from "./features/UserLogin/JobPost";
 import Settings from "./features/UserLogin/Settings";
+import GivingLogin from "./features/UserLogin/Giving";
 import Logout from "./features/UserLogin/Logout";
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="event" element={<EventLogin />} />
           <Route path="jobPost" element={<JobPost />} />
           <Route path="settings" element={<Settings />} />
+          <Route path="giving" element={<GivingLogin />} />
         </Route>
         <Route path="logout" element={<Logout />} />
         <Route path="*" element={<ErrorPage />} />
