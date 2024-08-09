@@ -1,13 +1,22 @@
-import logo from '../../assets/mayank_sir.jpg'
+import logo from "../../assets/mayank_sir.jpg";
 
 function About() {
-  const paraStyling = "p-4 my-2 text-xl";
+  const paraStyling = "p-4 my-2 text-xl text-center";
   return (
     <div className="border col-span-3 text-wrap h-[100%] ">
       <h1 className="font-extrabold text-5xl my-2 mx-3 ">
         <span className="border-b-4 border-b-cyan-700">Ab</span>out Us
       </h1>
-      <img src={logo} alt="" className='float-left h-64  m-4 border-2 border-gray-400 rounded'/>
+      <div className="flex flex-col gap-4 justify-center items-center">
+        <img
+          src={logo}
+          alt=""
+          className=" w-60  m-4 border-2 border-gray-400 rounded"
+        />
+        <h1 className="text-3xl font-bold">
+          H.O.D. Computer Science and Engineering
+        </h1>
+      </div>
       <p className={paraStyling}>
         Welcome to the alumni page of the Department of Computer Science and
         Engineering at Motilal Nehru National Institute of Technology (MNNIT)
@@ -23,12 +32,16 @@ function About() {
         environment conducive to learning and growth. The knowledge and skills
         imparted at MNNIT Allahabad have equipped our alumni to excel in diverse
         fields, ranging from software development and data science to artificial
-        intelligence and cybersecurity. <br className="p-1" />
+        intelligence and cybersecurity.
+      </p>
+      <p className={paraStyling}>
         The alumni network of CSE at MNNIT is not just a group of former
         students; its a thriving community that continues to inspire and support
         each other. Whether its through mentorship, collaboration, or simply
         sharing experiences, our alumni play a crucial role in shaping the
-        future of the next generation of engineers. <br className="p-1"/>
+        future of the next generation of engineers.
+      </p>
+      <p className={paraStyling}>
         We take pride in the achievements of our alumni, who have made
         significant contributions in various sectors, including academia,
         industry, and entrepreneurship. Their accomplishments reflect the

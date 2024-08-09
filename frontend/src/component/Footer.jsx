@@ -23,15 +23,14 @@ function Footer() {
         <div className="p-10   ">
           <h1 className="font-extrabold text-xl">Connect With Us</h1>
           <div className="p-4 flex text-3xl gap-4 ">
-           <div className="p-2 cursor-pointer hover:-translate-y-2 transition-all delay-300">
-           <Button outline secondary rounded>
-           <SiYoutubemusic color="#FF0000 " />
-           </Button>
-           </div>
-           <div className="p-2 cursor-pointer">
-           <FaLinkedin color="#0A66C2" />
-           </div>
-            
+            <div className="p-2 cursor-pointer hover:-translate-y-2 transition-all delay-300">
+              <div className="p-2 cursor-pointer">
+                <SiYoutubemusic color="#FF0000 " />
+              </div>
+            </div>
+            <div className="p-2 cursor-pointer">
+              <FaLinkedin color="#0A66C2" />
+            </div>
           </div>
         </div>
       </footer>

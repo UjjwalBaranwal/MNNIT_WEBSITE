@@ -38,7 +38,7 @@ function News() {
         </h1>
       </div>
       <div>
-        {data.slice(0, 3).map((item) => (
+        {data.map((item) => (
           <NewsData item={item} key={item.id} />
         ))}
       </div>

@@ -6,7 +6,9 @@ function NavbarGiving() {
 
   return (
     <div className="flex justify-between items-center p-4  ">
-      <img src={image} alt="MNNIT Logo" className="w-20 h-auto" />
+      <div>
+        <img src={image} alt="MNNIT Logo" className="w-20 h-auto" />
+      </div>
 
       <div className="flex">
         <Link to="/" className={linkStyle}>

@@ -8,9 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "server": "json-server --watch data/aluminiCarosulesData.json --port 8000",
-    "server-news": "json-server --watch data/news.json --port 3000",
-    "server-teams": "json-server --watch data/teams.json --port 8080"
+    "server": "json-server --watch data/news.json --port 3000"
   },
   "dependencies": {
     "json-server": "^1.0.0-beta.1",

@@ -1,4 +1,7 @@
 function About() {
+  // No one know how this work
+  // if you touch it will explode
+  // RIP in advanced . .. .. .
   return (
     <div className="flex flex-col gap-2 m-5 p-2" id="giving">
       <h1 className="text-center text-7xl font-serif">Why Give Back???</h1>

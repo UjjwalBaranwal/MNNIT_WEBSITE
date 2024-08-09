@@ -12,7 +12,7 @@ function Slides() {
     async function fetchData() {
       setIsLoading(true);
       try {
-        const res = await fetch("http://localhost:8000/slides");
+        const res = await fetch("http://localhost:3000/slides");
         if (!res.ok) {
           throw new Error("Network response was not ok");
         }

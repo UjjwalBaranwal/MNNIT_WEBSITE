@@ -28,7 +28,11 @@ function Box({ title, description, index, buttondes }) {
       </IconContext.Provider>
       <div className="text-lg font-semibold text-cyan-800 ">{title}</div>
       <div className="text-wrap text-base">{description}</div>
-      <Button primary outline className="uppercase text-sm  font-semibold text-black">
+      <Button
+        primary
+        outline
+        className="uppercase text-sm  font-semibold text-black"
+      >
         {buttondes}{" "}
       </Button>
     </div>

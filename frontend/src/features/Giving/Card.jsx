@@ -12,7 +12,7 @@ function Card({ item }) {
       <div className="card-inner cursor-pointer">
         <div
           className="card-front "
-          style={{ backgroundImage: `url(${item?.image})` }}
+          style={{ backgroundImage: `url(${item?.image})` || "bg-red-500" }}
         >
           {console.log(item.image)}
           <p>{item.title}</p>

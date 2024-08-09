@@ -14,7 +14,7 @@ function Navbar() {
       </div>
 
       <div className="flex justify-center items-center">
-        <ul className="flex justify-evenly">
+        <ul className="flex justify-evenly gap-2">
           <li className={style}>
             <NavLink
               to={""}
@@ -28,12 +28,6 @@ function Navbar() {
           </li>
           <li className={style}>
             <NavLink to="career"> Career</NavLink>
-          </li>
-          <li className={style}>
-            <NavLink to="community">Community & Interest</NavLink>
-          </li>
-          <li className={style}>
-            <NavLink to="volunteer">Volunteer</NavLink>
           </li>
           <li className={style}>
             <NavLink to="event">Event</NavLink>

@@ -1,4 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+// imports for Landing Pages
 import AppLayout from "./component/AppLayout";
 import Homepage from "./features/Homepage/Homepage";
 import Community from "./features/Community/Community";
@@ -14,6 +16,13 @@ import TeamPage from "./features/Team/TeamPage";
 // function App() {
 //   return <AppLayout />;
 // }
+// imports for Login PAge
+import AppLogin from "./features/UserLogin/AppLayout";
+import Dashboard from "./features/UserLogin/Dashboard";
+import EventLogin from "./features/UserLogin/Event";
+import JobPost from "./features/UserLogin/JobPost";
+import Settings from "./features/UserLogin/Settings";
+import Logout from "./features/UserLogin/Logout";
 function App() {
   return (
     <BrowserRouter>
@@ -30,6 +39,13 @@ function App() {
           <Route path="teams" element={<TeamPage />} />
         </Route>
         <Route path="giving" element={<Giving />} />
+        <Route path="log" element={<AppLogin />}>
+          <Route index path="dashboard" element={<Dashboard />} />
+          <Route path="event" element={<EventLogin />} />
+          <Route path="jobPost" element={<JobPost />} />
+          <Route path="settings" element={<Settings />} />
+        </Route>
+        <Route path="logout" element={<Logout />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
