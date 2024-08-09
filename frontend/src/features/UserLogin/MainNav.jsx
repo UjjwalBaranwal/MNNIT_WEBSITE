@@ -7,6 +7,7 @@ import {
 
 import { IoPersonOutline } from "react-icons/io5";
 import { MdOutlineLogout } from "react-icons/md";
+import { LuSchool } from "react-icons/lu";
 
 function MainNav() {
   const navStyle =
@@ -39,6 +40,12 @@ function MainNav() {
           <NavLink to="settings" className={navStyle}>
             <HiOutlineCog6Tooth className={iconStyle} />
             <span>Settings</span>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="giving" className={navStyle}>
+            <LuSchool className={iconStyle} />
+            <span>Giving Back To Communitee </span>
           </NavLink>
         </li>
         <li>
