@@ -12,7 +12,7 @@ function InputField({ type, placeholder, labelName, initialField }) {
         {labelName} :
       </label>
       <input
-        className=" p-[0.8rem_1.2rem] border border-solid rounded-lg"
+        className=" p-4 border border-solid rounded-md border-gray-300 focus:outline-none"
         id={labelName} // Add id to link the label with the input
         placeholder={placeholder}
         type={type}
