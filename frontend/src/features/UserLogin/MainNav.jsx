@@ -11,7 +11,7 @@ import { LuSchool } from "react-icons/lu";
 
 function MainNav() {
   const navStyle =
-    "flex items-center gap-3 text-gray-600 text-base font-medium py-3 px-6 transition-all duration-300 hover:text-gray-800 hover:bg-gray-50 hover:rounded-sm active:text-gray-800 active:bg-gray-50 active:rounded-sm [&.active]:text-gray-800 [&.active]:bg-gray-50 [&.active]:rounded-sm";
+    "flex items-center gap-3 text-gray-600 text-base font-medium py-3 px-6 transition-all duration-300 hover:text-gray-800  hover:bg-gray-300 hover:rounded-sm active:text-gray-800 active:bg-gray-50 active:rounded-sm active:bg-gray-300 [&.active]:text-gray-800 [&.active]:bg-gray-50 [&.active]:rounded-sm";
   const iconStyle =
     "w-6 h-6 text-gray-400 transition-all duration-300 hover:text-brand-600 active:text-brand-600 [&.active]:text-brand-600";
 

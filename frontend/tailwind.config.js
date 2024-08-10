@@ -5,7 +5,9 @@ export default {
     extend: {
       fontFamily: {
         custom_font: ["poppins", "sans-serif"],
+        heading:["Oswald", "sans-serif"],
       },
+
     },
   },
   plugins: [],
