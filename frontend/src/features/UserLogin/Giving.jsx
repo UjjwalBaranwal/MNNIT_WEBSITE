@@ -30,7 +30,7 @@ function Giving() {
           little help from those who’ve been there, done that!
         </p>
         <div className="flex justify-end items-end">
-          <Button rounded danger onClick={() => setIsOpen(true)}>
+          <Button rounded onClick={() => setIsOpen(true)} primary>
             Donate !!
           </Button>
         </div>
