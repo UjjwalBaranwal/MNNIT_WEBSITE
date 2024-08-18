@@ -1,4 +1,4 @@
-import React from "react";
+
 // import profile from "../../assets/mayank_sir.jpg";
 import { MdEmail } from "react-icons/md";
 import { IoIosCall } from "react-icons/io";

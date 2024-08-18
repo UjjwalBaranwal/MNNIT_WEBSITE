@@ -3,24 +3,24 @@ import InputField from "./InputField";
 
 function UpdatePassword() {
   return (
-    <div className="m-4 max-w-2xl">
+    <div className="m-4 max-w-full">
       <h1 className="font-extrabold text-4xl">
         <span className="border-b-4 border-b-green-400">Update</span> Password
       </h1>
       <form className="flex flex-col gap-5 m-5">
         <InputField
           type={"password"}
-          placeholder={"testing"}
+          placeholder={"Password"}
           labelName={"Current Password"}
         />
         <InputField
           type={"password"}
-          placeholder={"testing"}
+          placeholder={"New Password"}
           labelName={"New Password"}
         />
         <InputField
           type={"password"}
-          placeholder={"testing"}
+          placeholder={"Confirm Password"}
           labelName={"Re-Enter New Password"}
         />
 

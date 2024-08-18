@@ -2,6 +2,7 @@ import { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { RiArrowDropUpLine } from "react-icons/ri";
 import JobForm from "./JobForm";
+import JobTable from "./JobTable";
 function JobPost() {
   const [expanded, setExpanded] = useState(false);
   function handleClick() {
@@ -16,6 +17,7 @@ function JobPost() {
         <div className="my-4 flex flex-col justify-center items-center">
           {/* kuch nahi hai to show that u havent posted any job yt */}
           <p className="text-gray-500">You have not post any job yet!</p>
+          <JobTable/>
         </div>
       </section>
 
